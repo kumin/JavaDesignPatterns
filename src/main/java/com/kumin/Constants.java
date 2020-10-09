@@ -1,13 +1,18 @@
 package com.kumin;
 
 public class Constants {
-    public static enum Directions {
+    public enum Directions {
         Left,
         Right,
     }
 
-    public static enum Limbs {
+    public enum Limbs {
         Arm,
         Leg
+    }
+
+    public enum Sensor {
+        Temperature,
+        Obstacle
     }
 }
